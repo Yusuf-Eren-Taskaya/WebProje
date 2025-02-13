@@ -3,12 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vercel ile Yayınlama</title>
+    <title>Sağlık Takip</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Merhaba, Dünya!</h1>
-    <p>Bu sayfa Yusuf Eren yayınlandı.</p>
+    <header>
+        <h1>Sağlık Takip Sistemi</h1>
+    </header>
+
+    <div class="container">
+        <section class="info">
+            <h2>Bugün Nasıl Hissediyorsun?</h2>
+            <div class="mood-buttons">
+                <button id="good" class="mood-btn">İyi</button>
+                <button id="neutral" class="mood-btn">Orta</button>
+                <button id="bad" class="mood-btn">Kötü</button>
+            </div>
+            <p id="mood-result"></p>
+        </section>
+
+        <section class="health-tips">
+            <h2>Sağlık İpuçları</h2>
+            <ul>
+                <li>Her gün bol su içmeyi unutma.</li>
+                <li>Düzenli egzersiz yaparak fiziksel sağlığını koru.</li>
+                <li>Yeterli uyku almak genel sağlığını iyileştirir.</li>
+            </ul>
+        </section>
+
+        <section class="tracker">
+            <h2>Bugün Ne Kadar Su İçtin?</h2>
+            <input type="number" id="water-input" placeholder="Litre girin">
+            <button id="submit-water">Kaydet</button>
+            <p id="water-result"></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2025 Sağlık Takip Sistemi</p>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
