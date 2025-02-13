@@ -1,0 +1,1 @@
+console.log("Vercel'e hoş geldiniz!");
