@@ -28,54 +28,6 @@ body {
     margin: 0;
 }
 
-/* Sidebar */
-.sidebar {
-    background-color: #333;
-    color: white;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 250px;
-    height: 100%;
-    padding-top: 50px;
-    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.3);
-}
-
-.sidebar h3 {
-    text-align: center;
-    font-size: 1.8rem;
-    margin-bottom: 30px;
-}
-
-.sidebar ul {
-    list-style: none;
-    padding-left: 0;
-}
-
-.sidebar ul li {
-    padding: 10px;
-    text-align: center;
-    font-size: 1.2rem;
-}
-
-.sidebar ul li a {
-    text-decoration: none;
-    color: white;
-    display: block;
-    padding: 10px 0;
-    transition: background 0.3s;
-}
-
-.sidebar ul li a:hover {
-    background-color: #00b894;
-}
-
-/* Main Content */
-.main-content {
-    margin-left: 260px; /* To leave space for the sidebar */
-    padding: 20px;
-}
-
 /* Header */
 header {
     background-color: #333;

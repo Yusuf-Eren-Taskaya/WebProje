@@ -1,1 +1,1 @@
-console.log("Sağlık Sayfası Yüklendi!");
+//
