@@ -3,45 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sağlık Takip</title>
+    <title>Örnek Sağlık Sayfası</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Sağlık Takip Sistemi</h1>
-    </header>
-
-    <div class="container">
-        <section class="info">
-            <h2>Bugün Nasıl Hissediyorsun?</h2>
-            <div class="mood-buttons">
-                <button id="good" class="mood-btn">İyi</button>
-                <button id="neutral" class="mood-btn">Orta</button>
-                <button id="bad" class="mood-btn">Kötü</button>
-            </div>
-            <p id="mood-result"></p>
-        </section>
-
-        <section class="health-tips">
-            <h2>Sağlık İpuçları</h2>
-            <ul>
-                <li>Her gün bol su içmeyi unutma.</li>
-                <li>Düzenli egzersiz yaparak fiziksel sağlığını koru.</li>
-                <li>Yeterli uyku almak genel sağlığını iyileştirir.</li>
-            </ul>
-        </section>
-
-        <section class="tracker">
-            <h2>Bugün Ne Kadar Su İçtin?</h2>
-            <input type="number" id="water-input" placeholder="Litre girin">
-            <button id="submit-water">Kaydet</button>
-            <p id="water-result"></p>
-        </section>
+    <!-- Information Bar -->
+    <div class="info-bar">
+        <p>📞 Telefon: +90 123 456 78 90 | 📍 Adres: İstanbul, Türkiye | ✉️ E-mail: info@ornekmail.com</p>
     </div>
 
-    <footer>
-        <p>© 2025 Sağlık Takip Sistemi</p>
-    </footer>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h3>Hizmetler</h3>
+        <ul>
+            <li><a href="#">Online Randevu</a></li>
+            <li><a href="#">Çalışma Saatleri</a></li>
+            <li><a href="#">Lokasyon</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Header Section -->
+        <header>
+            <div class="container">
+                <nav>
+                    <ul>
+                        <li><a href="#">Ana Sayfa</a></li>
+                        <li><a href="#">Hakkımızda</a></li>
+                        <li><a href="#">Hizmetler</a></li>
+                        <li><a href="#">İletişim</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Sağlıkta Güvenli Adımlar</h1>
+                <p>Sağlığınız bizim için önemli, her zaman en iyi hizmeti sunuyoruz.</p>
+                <a href="#services" class="btn">Hizmetlerimizi Gör</a>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services" id="services">
+            <div class="container">
+                <h2>Hizmetlerimiz</h2>
+                <div class="service-cards">
+                    <div class="service-card">
+                        <img src="images/service1.jpg" alt="Hizmet 1">
+                        <h3>Hizmet 1</h3>
+                        <p>Sağlık danışmanlık hizmetlerimizle yanınızdayız.</p>
+                    </div>
+                    <div class="service-card">
+                        <img src="images/service2.jpg" alt="Hizmet 2">
+                        <h3>Hizmet 2</h3>
+                        <p>Dijital sağlık takip sistemleri ile sağlığınızı izliyoruz.</p>
+                    </div>
+                    <div class="service-card">
+                        <img src="images/service3.jpg" alt="Hizmet 3">
+                        <h3>Hizmet 3</h3>
+                        <p>Fitness ve spor koçluğu ile sağlığınızı geliştirin.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <footer>
+            <div class="container">
+                <p>&copy; 2025 Sağlık Hizmetleri. Tüm Hakları Saklıdır.</p>
+            </div>
+        </footer>
+    </div>
 
     <script src="script.js"></script>
 </body>
